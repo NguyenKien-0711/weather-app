@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bebas Neue';
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url('./assets/shogawa_river.webp');
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    background-color: rgba(226, 228, 175, 0.737);
+    color: rgb(255, 255, 255);
+    min-height: 10vh;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 8fr 2fr;
+    height: 90vh;
+    margin: 0;
+}
+
+.information-section {
+    margin: 0;
+}
+
+
+.search-section {
+    background-color: rgba(255, 255, 255, 0.2);
+    min-width: 500px;
+    backdrop-filter: blur(3px);
+}
+
+.search-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    gap: 3rem;
+}
+
+#search-box {
+    border: 2px solid #dfdfdf;
+    width: 20rem;
+    height: 2rem;
+    border-radius: 5px;
+    padding: 0rem 0.5rem;
+    font-size: 1rem;
+    font-family: 'Bebas Neue';
+}
+
+.search-btn {
+    font-family: 'Bebas Neue';
+    border-radius: 5px;
+    padding: 0.3rem 2rem;
+    font-size: 1rem;
+    background-color: #def7a4;
+    border: 2px solid #dfdfdf;
+
+}
+
+.search-btn:hover {
+    cursor: pointer;
+    background-color: #cbcf90;
+    color: #ffffff;
+    border: 2px solid #000;
+}
+
+.information-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.icon {
+    width: 12rem;
+    padding: 2rem;
+}
+
+.information-wrapper {
+    display: flex;
+    color: #e6e9b0;
+    align-items: center;
+    gap: 2rem;
+}
+
+.temp {
+    font-size: 3rem;
+    padding: 1rem 2rem;
+}
+
+.city {
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+.detail {
+    font-size: 3rem;
+    padding: 1rem 2rem;
+}
